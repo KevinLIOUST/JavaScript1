@@ -1,5 +1,5 @@
 let nb = +prompt("Veuillez entrer un nombre entier :");
-let ternaire;
+let ternPairImpair;
 
 // je teste si c'est different de NaN
 if (!isNaN(nb)) {
@@ -10,7 +10,7 @@ if (!isNaN(nb)) {
     // } else {
     //     alert("C'est un nombre impair ! :)");
     // }
-    ternaire = nb % 2 == 0 ? console.log("C'est un nombre pair ! :)") : console.log("C'est un nombre impair ! :)");
+    ternPairImpair = nb % 2 == 0 ? console.log("C'est un nombre pair ! :)") : console.log("C'est un nombre impair ! :)");
 
 } else {
     alert("Vous devez entrer un nombre entier pour que ça marche. :)");

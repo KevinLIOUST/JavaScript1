@@ -18,5 +18,6 @@ if (isNaN(numMois)) {
         case 10: alert("Octobre"); break;
         case 11: alert("Novembre"); break;
         case 12: alert("Décembre"); break;
+        default: break;
     }
 }
