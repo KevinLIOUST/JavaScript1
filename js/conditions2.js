@@ -1,7 +1,7 @@
 let nb = +prompt("Veuillez entrer un nombre entier :");
 
 // je teste si c'est different de NaN
-if (!isNaN(nb)) {
+if (!(isNaN(nb) || nb == "")) {
     alert("C'est bon ! :) C'est bien un nombre entier ! :)");
 
     if (nb % 2 == 0) {
