@@ -5,6 +5,9 @@ let tabMois2 = new Array("Janvier", "Février", "Mars", "Avril", "Mai", "Juin", 
 //     console.log(tabMois[i]);
 // }
 
+// console.table(tabMois);
+// console.table(tabMois2);
+
 // for (let i = 0; i < tabMois2.length; i++) {
 //     console.log(tabMois2[i]);
 // }
