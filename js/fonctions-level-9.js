@@ -3,7 +3,7 @@ let i = 0;
 
 let affichageNombre = function () {
   let nombreAafficher = tabNombres[i];
-  console.log(tabNombres[i]);
+  console.log("Le nombre " + tabNombres[i] + " est à l\'index " + i + " ! :)");
   i++;
   return nombreAafficher;
 };
