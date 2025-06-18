@@ -1,13 +1,27 @@
-let tabNombres = [10, 20, 30, 40];
-let i = 0;
+// function saluerNom(nom) {
+//     return `Bonjour ${nom} ! :)`;
+// }
 
-let affichageNombre = function () {
-  let nombreAafficher = tabNombres[i];
-  console.log("Le nombre " + tabNombres[i] + " est à l\'index " + i + " ! :)");
-  i++;
-  return nombreAafficher;
-};
+// console.log(saluerNom("Kevin"));
+// console.log(saluerNom("Jeanne d'Arc"));
+// console.log(saluerNom("Lucy"));
+// console.log(saluerNom("Wendy"));
+// console.log(saluerNom("Carla"));
 
-tabNombres.forEach((nombre) => {
-  affichageNombre();
-});
+// function additionner(a, b) {
+//     return a + b;
+// }
+
+// console.log(additionner(5, 5));
+
+let saluerNom = (nom) => `Bonjour ${nom} ! :)`;
+
+console.log(saluerNom("Kevin"));
+console.log(saluerNom("Jeanne d'Arc"));
+console.log(saluerNom("Lucy"));
+console.log(saluerNom("Wendy"));
+console.log(saluerNom("Carla"));
+
+let additionner = (a, b) => a + b;
+
+console.log(additionner(4, 10));
